@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(252, 166, 201);
+    font-family: Verdana, sans-serif ;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h1:hover {
+    color: black;
+}
+
+.quote {
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 45%;
+}
+
+#prophet {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+li {
+    font-weight: bold;
+    list-style-type: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 25%;
+    padding: 4px;
+}
+
+img {
+    max-width: 15%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#secquo {
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 40%;
+    font-size: 1.6em;
+}
+
+#credit {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.87em;
+}
+
+.quote, #secquo {
+    font-family: 'Times New Roman', Times, serif;
+}
