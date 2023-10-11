@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Mooli&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,8 +9,13 @@
     width: 220px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 nav a {
@@ -16,6 +23,7 @@ nav a {
     color: #80B3C7;
     text-decoration: none;
     font-size: 1.5em;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -39,6 +47,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #80B3C7;
@@ -48,6 +60,10 @@ main section {
     background-color: #C59542;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,20 +71,37 @@ main section {
     color: black;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #80B3C7;
+}
+
 .msg {
     background-color: #C59542;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: black;
+    font-family: "Allerta Stencil";
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 body {
     background-color: #EDEADF;
+    font-family: Mooli, Lato, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -78,6 +111,12 @@ header {
 footer {
     background-color: #EDEADF;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer.social img {
+    padding-top: 15px;
 }
 
 footer a {
@@ -99,6 +138,13 @@ footer p a:hover {
 
 .home-title {
     color: #C59542;
+    font-family: "Allerta Stencil";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
