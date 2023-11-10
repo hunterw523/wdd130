@@ -181,7 +181,7 @@ footer {
     background-color: #C59542;
     color: black;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -228,6 +228,79 @@ h4 {
     color: black;
 }
 
+/* vvv FAQ specific CSS vvv */
+
+.faq-title {
+    color: #C59542;
+    font-family: "Allerta Stencil";
+    font-size: 2.5em;
+    margin-top: 100px;
+}
+
+.faq {
+    max-width: 95%;
+    margin: 35px;
+
+}
+
+.question {
+    padding-top: 50px;
+    color:#80B3C7;
+    font-family: "Allerta Stencil";
+    font-size: 1.15em;
+    /* background-color: rgba(128, 128, 128, 0.15); */
+}
+
+.answer {
+    padding-left: 15px;
+}
+
+.invitation {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    opacity: 65%;
+}
+
+.invitation-container {
+    position: relative;
+}
+
+.invitation-container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #73B645;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.invitation-container .prompt {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.invitation-container .btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+
+.inline-img {
+    float: right;
+    margin: 0px 0px 15px 20px;
+    max-width: 15%;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -268,5 +341,15 @@ h4 {
     }
     footer {
         margin-top: 25px;
+    }
+    .invitation {
+        max-width: 100%;
+        width: auto;
+    }
+    .invitation-container .prompt {
+        font-size: 1em;
+    }
+    .inline-img {
+        display: none;
     }
 }
