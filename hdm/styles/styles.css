@@ -228,25 +228,27 @@ footer p a:hover {
 }
 
 .accordion {
-    background-color: #eee;
+    background-color: #DEC4A6;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 95%;
     border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+    grid-column: 1/2;
+    margin-left: 1.6em;
   }
   
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #b6a189;
   }
   
   .accordion:after {
     content: '\002B';
-    color: #777;
+    color: black;
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -258,8 +260,65 @@ footer p a:hover {
   
   .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: #A63A50;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    grid-column: 1/2;
+    width: 90%;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  .faq-main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: .75em;
+  }
+
+  form {
+    grid-column: 2/3;
+    grid-row: 2/6;
+    color: white;
+    margin-left: 1.2em;
+  }
+
+  .name-input {
+    grid-row: 2/3;
+    margin-bottom: 1em;
+  }
+
+  .name-input input {
+    margin-left: 33px;
+    width: 55%;
+  }
+
+  .email-input {
+    grid-row: 3/4;
+    margin-bottom: 1em;
+  }
+  .email-input input {
+    margin-left: 33px;
+    width: 55%;
+  }
+
+  .question-input {
+    grid-row: 4/5;
+    margin-bottom: 1.75em;
+  }
+  .question-input textarea {
+    margin-left: 10px;
+    width: 70%;
+    height: 5em;
+  }
+
+  #feedback {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    font-size: 1.2em;
+    margin-left: 1em;
   }
